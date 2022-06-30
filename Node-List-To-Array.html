@@ -1,0 +1,44 @@
+<ul>
+<li>Godam</li>
+<li>Gundala</li>
+<li>Kapak Sakti</li>
+</ul>
+
+<script>
+
+// Nodelist extracted from a list in html
+  
+const liMhs = document.querySelectorAll('li');
+
+console.log(liMhs[0].textContent);
+
+   //output: Godam
+  
+// Transform Node List into Array Using "for" Loop
+  
+const mhs = [];
+for(let i=0; i < liMhs.length; i++){
+	mhs.push(liMhs[i].textContent);
+}
+
+console.log(mhs);
+
+    //output: ["Godam", "Gundala", "Kapak Sakti"]
+ 
+// Transform Node List into Array Using Spread Operator (...) 
+  
+const mhsa =[...liMhs].map(m => m.textContent);
+
+//spread merubah dari node list menjadi array
+// caranya dari liMhs menjadi [...liMhs]
+//dengan demikian, karena sudah jadi array, [...liMhs] bisa gunakan method “map”
+
+console.log(mhsa);
+
+//output: ["Godam", "Gundala", "Kapak Sakti"]
+  
+</script>  
+
+
+
+
