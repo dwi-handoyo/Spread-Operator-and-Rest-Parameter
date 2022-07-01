@@ -26,6 +26,10 @@ e. Transform node list into array
    
    * https://github.com/dwi-handoyo/Spread-Operator-and-Rest-Parameter/blob/main/Spread-Operator-and-Map-Method.html
    
+   * https://github.com/dwi-handoyo/Spread-Operator-and-Rest-Parameter/blob/main/Exercise-Array-from-List-of-Lists-1.html
+   
+   * https://github.com/dwi-handoyo/Spread-Operator-and-Rest-Parameter/blob/main/Exercise-Array-from-List-of-Lists-2.html
+   
 Rest parameter can be applied for
 
 a. Pass an indefinite number of parameters to a function.
