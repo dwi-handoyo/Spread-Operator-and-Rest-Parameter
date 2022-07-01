@@ -1,0 +1,30 @@
+
+// Transform Node List into Array
+
+<ul class="tes">
+<li>Sepeda</li>
+<li>Motor</li>
+<li>Mobil</li>
+<li>Bis</li>
+<li>Becak</li>
+<li>Truk</li>
+</ul>
+
+<script>
+// Node list extracted from above html list 
+let a = document.querySelector(".tes").getElementsByTagName('li');
+
+// Node list changed to array by using for loop  
+let y = [];
+for(let i=0; i<a.length; i++){
+ y.push(a[i].textContent);
+}
+ 
+console.log(y);  //output: ["Sepeda", "Motor", "Mobil", "Bis", "Becak", "Truk"]
+
+// Node list changed to array by using spread operator and map method 
+let x = [...a].map(m => m.textContent);
+
+console.log(x); //output: ["Sepeda", "Motor", "Mobil", "Bis", "Becak", "Truk"]
+  
+</script>  
