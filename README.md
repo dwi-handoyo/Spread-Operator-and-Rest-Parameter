@@ -30,4 +30,10 @@ Rest parameter can be applied for
 
 a. Pass an indefinite number of parameters to a function.
 
+   * https://github.com/dwi-handoyo/7-Ways-of-Loop-in-Javascript/blob/main/Loop-on-Arguments.js
+
 b. Destructuring array
+
+   * https://github.com/dwi-handoyo/Destructuring-in-Javascript/blob/main/Rest-Parameter.js
+   
+   
