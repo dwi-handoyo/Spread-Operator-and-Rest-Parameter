@@ -7,6 +7,8 @@ Spread operators can be applied for
 a. Break iterables into single components
 
    * https://github.com/dwi-handoyo/Spread-Operator-and-Rest-Parameter/blob/main/Iterables-to-Single-Components.js
+   
+   * https://github.com/dwi-handoyo/Spread-Operator-and-Rest-Parameter/blob/main/Exercise-Hover-String-Components.html
 
 b. Joining two arrays
 
