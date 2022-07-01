@@ -6,14 +6,26 @@ Spread operators can be applied for
 
 a. Break iterables into single components
 
+   * https://github.com/dwi-handoyo/Spread-Operator-and-Rest-Parameter/blob/main/Iterables-to-Single-Components.js
+
 b. Joining two arrays
 
+   * https://github.com/dwi-handoyo/Spread-Operator-and-Rest-Parameter/blob/main/Joining-Two-Arrays.js
+
 c. Joining two arrays or more
-
+   
+   * https://github.com/dwi-handoyo/Spread-Operator-and-Rest-Parameter/blob/main/Joining-Two-Arrays-and-More.js
+   
 d. Copying array
-
+  
+   * https://github.com/dwi-handoyo/Spread-Operator-and-Rest-Parameter/blob/main/Copying-Arrays.js
+   
 e. Transform node list into array
 
+   * https://github.com/dwi-handoyo/Spread-Operator-and-Rest-Parameter/blob/main/Node-List-To-Array.html
+   
+   * https://github.com/dwi-handoyo/Spread-Operator-and-Rest-Parameter/blob/main/Spread-Operator-and-Map-Method.html
+   
 Rest parameter can be applied for
 
 a. Pass an indefinite number of parameters to a function.
