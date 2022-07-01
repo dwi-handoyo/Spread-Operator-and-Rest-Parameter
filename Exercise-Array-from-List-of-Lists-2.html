@@ -1,0 +1,43 @@
+
+<p>Extract an array from a list of lists in html page</p>
+
+<p>First List</p>
+
+<ul class="list1">
+ <li>Satu</li>
+ <li>Dua</li>
+ <li>Tiga</li>
+</ul>
+
+<p>Second List</p>
+
+<ul id="Test2">
+<li>Siji</li>
+<li>Loro</li>
+<li>Telu</li>
+</ul>
+
+<script>
+
+let tes1 = document.querySelector('.list1').getElementsByTagName('li');
+
+// Node list changed to array by using for loop    
+let test1 = [];
+
+for(let i=0; i<tes1.length; i++){
+ test1.push(tes1[i].textContent);
+}
+
+console.log(test1);
+//output: ["Satu", "Dua", "Tiga"]
+
+// Node list changed to array by using spread operator and map method    
+let test2 = [...tes1].map( m => m.textContent);
+
+console.log(test2);
+//output: ["Satu", "Dua", "Tiga"]
+
+</script>
+
+
+
