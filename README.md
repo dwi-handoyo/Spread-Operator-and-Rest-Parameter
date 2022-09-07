@@ -1,6 +1,6 @@
 # Spread-Operator-and-Rest-Parameter
 
-Spread operator and rest paramter used same symbol, ie. thiple dots (...). The main difference between rest and spread is that the rest operator puts the rest of some specific user-supplied values into a JavaScript array. But the spread syntax expands iterables into individual elements.
+Spread operator and rest parameter used same symbol, ie. triple dots (...). The main difference between rest and spread is that the rest operator puts the rest of some specific user-supplied values into a JavaScript array. But the spread syntax expands iterables into individual elements.
 
 ### 1. Spread Operators (...arguments) 
 
